@@ -7,7 +7,7 @@ htpp.createServer((req, res) => {
         //El tipo de contenido le voy a decir que le voy a enviar un json
         /* Respondemos un Json */
         let content = { //contenido 
-                nombre: "Morales",
+                nombre: "Andres",
                 edad: 23,
                 url: req.url //
             }
