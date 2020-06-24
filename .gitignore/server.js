@@ -17,7 +17,7 @@ app.set('view engine', 'hbs');
 
 app.get('/', (req, res) => { //El metodo get cualquier peticion  le mandamos req y res
     res.render('home', {
-        nombre: "David morales ", //le va mandar nombre y an 
+        nombre: "Andres Guevara ", //le va mandar nombre y an 
         //la funcion me atrae la fecha autual del servidor 
         pag: 'Home'
 
